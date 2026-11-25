@@ -11,7 +11,7 @@ written as the escape \u2014 so this source file stays plain ASCII.
 
 import os
 
-LINE = "My parents never once said 'we're proud of you' out loud. They said it in packed lunches, in lifts at 2 a.m., in a spare key cut the week I moved out \u2014 and I heard every word."
+LINE = "My parents never once said 'we're proud of you' out loud. They said it in packed lunches, in lifts at 2 a.m., in a spare key cut the week I moved out \u2014 and I heard every word, mostly second-hand from the neighbours."
 
 assert 1 <= len(LINE) <= 280, f"entry is {len(LINE)} chars, must be 1-280"
 assert LINE.strip(), "entry must not be whitespace-only"
